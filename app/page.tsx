@@ -29,7 +29,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-black text-white">
       <div className="container mx-auto">
-        <h1 className="text-center py-[40px]">Email JS</h1>
+        <h1 className="text-center py-[40px] text-8xl">Email JS</h1>
         <section className="flex justify-center py-[40px]">
           <form
             onSubmit={handleSubmit}
